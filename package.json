@@ -1,0 +1,37 @@
+{
+  "name": "ultimate-flask-front-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realpython/ultimate-flask-front-end.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/realpython/ultimate-flask-front-end/issues"
+  },
+  "homepage": "https://github.com/realpython/ultimate-flask-front-end#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-browser": "^3.0.1",
+    "gulp-size": "^2.1.0",
+    "reactify": "^1.1.1",
+    "tinyify": "^2.5.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babelify": "^10.0.0",
+    "chart.js": "^2.8.0",
+    "gulp-babel": "^8.0.0",
+    "react-chartjs": "^1.2.0",
+    "react-chartjs-2": "^2.7.6"
+  }
+}

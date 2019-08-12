@@ -1,0 +1,16 @@
+*.DS_Store
+*.pyc
+.git
+
+env
+venv
+
+node_modules/
+npm-debug.log
+bower_components/
+.module-cache
+
+build/*
+build/build.zip
+
+project/static/scripts/js/bundle.js
