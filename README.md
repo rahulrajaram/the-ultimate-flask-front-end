@@ -26,15 +26,15 @@ sh ./launch_server.sh
 
 1. Create a `build/` directory at the top level
 2. Copy `project/app.py` into `build/`
-3. Copy `project/static/js/*` and `project/templates/*` *recursively* into `build/`
+3. Copy `project/static/scripts/js`, `project/static/css` and `project/templates` *recursively* into `build/`
 4. Deploy **either** using:
 
-    4.1. [`zappa`](https://github.com/Miserlou/Zappa#about) (read the instructions carefully and deploy to **exactly 1 region**):
+    4.1. [`zappa`](https://github.com/Miserlou/Zappa#about) (read the instructions carefully and deploy to **exactly 1 region**). One thing to note is you don't explicitly need to create a Lambda handler; zappa will do it for you.:
     ```sh
     zappa init
     zappa deploy
     ```
-    
+
     4.2. Alternately,
     - create a Lambda handler function in `build/app.py`
     - create a CloudFormation stack by packaging the `build/` directory and deploying it to a Lambda function.

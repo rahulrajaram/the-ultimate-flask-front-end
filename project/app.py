@@ -8,9 +8,8 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/hello')
-def hello():
-    return render_template('hello.html')
+def handler(event, context):
+    app.run(debug=True)
 
 
 if __name__ == '__main__':
