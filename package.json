@@ -19,7 +19,6 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-browser": "^3.0.1",
-    "gulp-size": "^2.1.0",
     "reactify": "^1.1.1",
     "tinyify": "^2.5.1"
   },
