@@ -28,7 +28,7 @@
     "@babel/preset-react": "^7.0.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babelify": "^10.0.0",
-    "chart.js": "^2.8.0",
+    "chart.js": "^2.9.4",
     "gulp-babel": "^8.0.0",
     "react-chartjs": "^1.2.0",
     "react-chartjs-2": "^2.7.6"
